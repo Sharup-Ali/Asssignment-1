@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+.banner-container{
+    max-width: 1400px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* image sector */
+.image{
+    justify-content: center;
+    margin-left: 550px;
+    margin-top:26px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+
+.banner-content p, h2{
+    color:black;
+}
+.banner-content h2{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    width: 998px;
+    height: 136px;
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+}
+.banner-content p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 852px;
+    height: 52px;
+    color:darkslategray;
+    text-align: center;
+    font-size: 16px;
+
+}
+/* button section */
+#tag{
+    margin-top: 154px;
+    justify-content: center;
+    margin-left: 730px;
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    }
+#para{
+    width: 852px;
+    height: 52px;
+    color:cadetblue;
+    margin-left: 500px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.btn{
+    margin-left: 590px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Azeret Mono;
+}
+/* main section */
+.main-container{
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.title{
+    margin-top: 48px;
+    margin-left: 48px;
+    color:darkslategrey;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+.main-content{
+    display:flex ;
+    gap:108px;
+}
+.title h2{
+    margin-bottom: 30px;
+    color:darkslategrey;
+}
+.section1-image{
+    margin-right: 48px;
+    margin-top: 48px;
+}
+.section-btn{
+    width: 150px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    color:darkcyan;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
